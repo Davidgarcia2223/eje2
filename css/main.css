@@ -1,0 +1,35 @@
+.product-card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+      box-shadow: 0 0 15px rgba(220, 53, 69, 0.6);
+    }
+    .hero-section {
+      background: url('img/Flux_Dev_A_futuristic_setting_with_a_sleek_minimalist_backgrou_3.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(220, 53, 69, 0.7);
+      z-index: 0;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .smooth-scroll {
+      scroll-behavior: smooth;
+    }
+
+#galeria img {
+    margin-top: 10px;
+}
+
